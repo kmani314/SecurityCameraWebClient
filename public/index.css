@@ -62,9 +62,25 @@ input {
   border-style: none;
   background-color: transparent;
 }
+
 .logout-form {
   padding-top: 10px;
   float: right;
   padding-right: 5px;
   box-shadow:
+}
+
+#camera-list-element {
+  display: block;
+  text-decoration: none;
+  font-family: Open Sans;
+  background-color: #4B87FF;
+  color: white;
+  max-width: 50%;
+  font-size: 24px;
+  border-radius: 15px;
+  border-style: none;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
 }

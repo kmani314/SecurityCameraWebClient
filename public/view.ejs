@@ -12,5 +12,10 @@
     <span id="nav-title"> WebCC </span>
     <form action="/logout" method="get" class="logout-form"><button class="logout"> Logout</button></form>
   </div>
+<ul>
+  <% for(var i = 0; i < cameras.length; i++) { %>
+  <a id="camera-list-element" href="<%=links[i]%>">Camera <%=parseInt(cameras[i])+ 1 %></div>
+  <% } %>
+</ul>
 </body>
 </html>
