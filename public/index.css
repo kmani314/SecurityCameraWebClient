@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 #login {
   display:grid;
   grid-template-rows: 3;
@@ -34,4 +37,34 @@ input {
   padding: 3.5px;
   padding-left: 5px;
   -webkit-appearance: none;
+}
+#nav-title {
+  font-family: Roboto Mono;
+  font-size: 40px;
+  color: white;
+  padding-left: 10px;
+}
+
+.nav {
+  margin: 0;
+  position: sticky;
+  background-color: #4B87FF;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.logout {
+  font-family: Roboto Mono;
+  font-size: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: white;
+  border-style: none;
+  background-color: transparent;
+}
+.logout-form {
+  padding-top: 10px;
+  float: right;
+  padding-right: 5px;
+  box-shadow:
 }
